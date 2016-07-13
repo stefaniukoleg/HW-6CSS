@@ -1,0 +1,157 @@
+body{
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/37/9c/cb/379ccba5a68397e5366956db60585819.png);
+
+}
+
+.button {
+	display: block;
+	margin: auto;
+	text-align: center;
+	width: 230px;
+	padding: 10px;
+	margin-top: 50px;
+	font-family: Arial;
+	color: #555555;
+	font-size: 24px;
+	font-weight: 800;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(top, #dbdbdb 0%, #e0e0e0 1%, #d2d2d2 49%, #c7c7c7 50%, #adadad 100%);
+	-webkit-box-shadow: 1px 1px 1px 1px #616161, 0 0 0 8px #cbcbcb, 0 0 0 11px #fff, 0 0 0 13px #666666, 0px 2px 2px 15px #d1d1d1;
+	text-shadow: #f6f6f6 0 1px; 	
+}
+
+.button:before, .button:after {
+	content: "\2605";
+	color: #888888;
+	padding: 10px;
+}
+
+.logoblock{
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+a:focus ~ .logo {
+	height: 210px;
+	width: 600px;
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c72fc54170109.5609327792a28.png);
+	display: block;
+	margin: auto;
+}
+
+.hr1{
+	margin-top: 30px;
+}
+
+table{
+	margin: auto;
+	font-family: arial;
+	color: #000080;
+}
+
+.tabs {
+	border: dashed 1px #634F36;
+	background: #fffff5;
+	font-family: "Courier New";
+	padding: 7px;
+	font-size: 80%;
+	color: black;
+}
+
+
+.anime{
+	width: 800px;
+	height: 1000px;
+	margin: auto;
+}
+
+#square1 {
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 100px;
+	width: 400px;
+	height: 400px;
+	background: red;
+
+}
+
+#square2 {
+	margin: auto;
+	margin-bottom: 100px;
+	width: 400px;
+	height: 400px;
+	background: blue;
+	-webkit-transform: rotate(45deg);
+
+}
+
+#square3 {
+	margin:auto;
+	width: 400px;
+	height: 400px;
+	background: green;
+	-webkit-transform: rotate(67.5deg);
+
+}
+
+#square4 {
+	margin:auto;
+	width: 400px;
+	height: 400px;
+	background: orange;
+	-webkit-transform: rotate(135deg);
+
+}
+
+#circle {
+	margin:auto;
+	margin-top: 100px;
+	width: 400px;
+	height: 400px;
+	background: yellow;
+	-webkit-border-radius: 200px;
+}
+
+#squaremin {
+	position: absolute;
+	margin:auto;
+	margin-top: 60px;
+	margin-left: 60px;
+	width: 280px;
+	height: 280px;
+	background: black;
+	-webkit-transform: rotate(112.5deg);
+}
+
+#circle2 {
+	margin:auto;
+	width: 280px;
+	height: 280px;
+	background: linear-gradient(0deg, white,yellow,orange,red,blue,green,silver,gray,pink,gold,black);
+	-webkit-border-radius: 200px;
+}
+
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(360deg);}
+	100% { -webkit-transform: rotate(-360deg);}
+}
+
+#square1:hover {
+	-webkit-animation: spin 0.1s infinite linear;
+}
+#square2:hover {
+	-webkit-animation: spin 0.1s infinite linear;
+}
+#square3:hover {
+	-webkit-animation: spin 0.1s infinite linear;
+}
+#square4:hover {
+	-webkit-animation: spin 0.1s infinite linear;
